@@ -85,14 +85,14 @@
   }
   .question {
     margin-bottom: 2em;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 500;
   }
   .option-div {
-    font-size: 2em;
+    font-size: 1em;
     width: 100%;
-    padding: 1em;
-    margin: 0.3em 0;
+    padding: 0.7em;
+    margin: 0.2em 0;
     text-align: left;
     outline: none;
     background: transparent;
