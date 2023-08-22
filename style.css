@@ -28,7 +28,7 @@
   }
   #start-button,
   #restart {
-    font-size: 1.3em;
+    font-size: 2em;
     padding: 0.5em 1.8em;
     border-radius: 0.2em;
   }
@@ -41,7 +41,7 @@
     top: 20px;
     left: 50%;
     width: 90%;
-    max-width: 37.5em;
+    max-width: 50em;
   }
   #display-container {
     position: relative;
@@ -76,19 +76,20 @@
   }
   .timer-div {
     background-color: #e1f5fe;
-    width: 7.5em;
+    width: 10em;
     border-radius: 1.8em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.7em 1.8em;
+    padding: 1.2em 1.8em;
   }
   .question {
-    margin-bottom: 1.25em;
+    margin-bottom: 2em;
+    font-size: 3em;
     font-weight: 500;
   }
   .option-div {
-    font-size: 0.9em;
+    font-size: 2em;
     width: 100%;
     padding: 1em;
     margin: 0.3em 0;
@@ -109,7 +110,7 @@
     margin-top: 1.5em;
   }
   #next-button {
-    font-size: 1em;
+    font-size: 2em;
     background-color: #0a69ed;
     color: #ffffff;
     padding: 0.7em 1.8em;
