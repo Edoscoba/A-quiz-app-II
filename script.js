@@ -1,4 +1,4 @@
-alert("please rate my code");
+
 	  // References
 	  const quizdisplay = document.getElementById("display");
 	  let timeLeft = document.querySelector(".time-left");
@@ -16,6 +16,11 @@ alert("please rate my code");
 	  let scoreCount = 0;
 	  let count = 11;
 	  let countdown;
+	  
+	//   know your name 
+	 const name = prompt("please what is your name");
+alert( name +" welcome to my quiz app \n designed by obi simon \n please let me know if there are errors ")
+
 
 	  //Question and Options array
 	  // Add questions, options and correct option in below format
@@ -67,11 +72,11 @@ alert("please rate my code");
 			  "function = myFunction()",
 			  "function  myFunction()",
 			  "function = myFunction()",
-			  "functionMyFunction()",
+			  "function MyFunction()",
 			 
 			
 			],
-			correct: "function = myFunction()",
+			correct: "function MyFunction()",
 		  },
 		  {
 			id: "1",
@@ -157,13 +162,13 @@ alert("please rate my code");
 			  options: [
 				"function myFunction()",
 				"myFunction()",
-				"  function = myFunction()",
-				" let myFunction()",
+				"function = myFunction()",
+				"let myFunction()",
 			  ],
 			  correct:"function myFunction()",
 			},
 			{
-				id: "3",
+				id: "1",
 				  question: " What is the correct syntax for an if statement in JavaScript?",
 				  options: [
 					" if x = 5",
@@ -174,7 +179,7 @@ alert("please rate my code");
 				  correct:"if(x === 5)",
 				},
 					{
-				id: "3",
+				id: "2",
 				  question: "  How do you access the length of an array in JavaScript?",
 				  options: [
 					"length()",
@@ -198,7 +203,7 @@ alert("please rate my code");
 					  correct:"arr.push(element)",
 					},
 					{
-					id: "3",
+					id: "0",
 					  question: "Which operator is used to concatenate strings in JavaScript?",
 					  options: [
 						"+",
@@ -210,7 +215,7 @@ alert("please rate my code");
 					  correct:"+",
 					},
 					{
-						id: "3",
+						id: "1",
 						  question: " What is the output of the following code? \n javascrip console.log('5' + 2);",
 						  options: [
 							"52",
@@ -222,7 +227,7 @@ alert("please rate my code");
 						  correct:"52",
 						},
 						{
-						id: "3",
+						id: "2",
 						  question: "Which function is used to convert a string to lowercase in JavaScript?",
 						  options: [
 							" lowercase()",
@@ -246,7 +251,7 @@ alert("please rate my code");
 						  correct:"//This is a comment",
 						},
 						{
-							id: "3",
+							id: "0",
 						
 							  question: " What is the output of the following code? \n javascript \n console.log(typeof undefined",
 							  options: [
@@ -260,7 +265,7 @@ alert("please rate my code");
 							},
 
 							{
-							id: "3",
+							id: "1",
 						
 							  question: " How do you check if a variable is an array in JavaScript?",
 							  options: [
